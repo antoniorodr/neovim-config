@@ -27,7 +27,6 @@ local root_patterns = {
   ".hg",
   ".bzr",
   ".svn",
-  ".git",
 
   -- build tools
   "Makefile",
