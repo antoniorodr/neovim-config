@@ -1,10 +1,10 @@
 # Installation
 
 ```bash
-git clone https://github.com/antoniorodr/neovim-config ~/.config
+git clone https://github.com/antoniorodr/neovim-config ~/
 
 ```
 
 ```bash
-rm -rf ~/.config/.git
+rm -rf ~/.git
 ```
