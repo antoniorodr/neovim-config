@@ -20,6 +20,11 @@ vim.keymap.set("n", "<leader>Pl", function()
     vim.cmd("PreLiveGo")
 end, { desc = "Start Live Server" })
 
+
+vim.keymap.set("n", "<leader>T", "<cmd>ToggleTerm<cr>", { desc = "Toggle terminal" })
+vim.keymap.set("t", "<leader>T", "<C-\\><C-n><cmd>ToggleTerm<cr>", { desc = "Toggle terminal", noremap = true, silent = true })
+
+
   
 
   
