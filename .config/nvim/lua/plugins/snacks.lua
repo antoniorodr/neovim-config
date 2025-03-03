@@ -11,10 +11,11 @@ local excluded = {
   "target/",
   "dadbod_ui/tmp/",
   "dadbod_ui/dev/",
-
+  ".DS_Store",
   "package-lock.json",
   "pnpm-lock.yaml",
   "yarn.lock",
+  ".git",
 }
 
 local root_patterns = {
