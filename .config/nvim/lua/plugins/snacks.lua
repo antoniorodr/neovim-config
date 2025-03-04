@@ -104,18 +104,21 @@ vim.g.root_spec = { root_patterns, "cwd", "lsp" }
 
 return {
   "folke/snacks.nvim",
+  priority = 1000,
+  lazy = false,
   opts = {
     -- need notifier for disabling "No notifications available"
     notifier = { enabled = true },
 
-    image = { enabled = true },
+    image = { enabled = true,doc = {
+      inline = false,
+    } },
 
     picker = {
       sources = {
         projects = {
           dev = {
             "~/.dotfiles",
-
             "~/dev",
             "~/dev/general",
             "~/dev/projects",
