@@ -163,4 +163,8 @@ export PATH="${UV_PYTHON_BIN_DIR}:${PATH}"
 export UV_PYTHON_DOWNLOADS=manual
 export UV_PYTHON_PREFERENCE=only-managed
 
+export PATH="$HOME/.rbenv/shims:$PATH"
+
+
+
 . ~/.bin/ave.sh
