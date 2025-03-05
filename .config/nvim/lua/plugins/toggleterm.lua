@@ -4,7 +4,7 @@ return {
     lazy = true,
     cmd = { "ToggleTerm" },
     keys = {
-      { "<leader>T", desc = "Terminals" },
+      { "<leader>T", desc = "ToogleTerms" },
       {
         "<leader>Tf",
         function()
