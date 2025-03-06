@@ -19,3 +19,7 @@ vim.keymap.set("n", "<leader>Pl", function()
 end, { desc = "Start Live Server" })
 
 vim.api.nvim_set_keymap("t", "<Esc>", [[<C-\><C-n>]], { noremap = true, silent = true })
+
+vim.keymap.set("n", "<Leader>H", function()
+  Snacks.dashboard()
+end, { desc = "DevDocs" })
