@@ -5,3 +5,5 @@ export WORKON_HOME=~/.venvs
 source /path/to/ave.sh
 
 . "$HOME/.cargo/env"
+
+export PATH=$PATH:/Applications/love.app/Contents/MacOS/

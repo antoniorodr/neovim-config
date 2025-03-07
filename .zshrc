@@ -168,3 +168,5 @@ export PATH="$HOME/.rbenv/shims:$PATH"
 
 
 . ~/.bin/ave.sh
+
+export PATH=$PATH:/Applications/love.app/Contents/MacOS/
