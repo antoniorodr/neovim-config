@@ -1,0 +1,114 @@
+prSections:
+  - title: My Pull Requests
+    filters: is:open author:@me
+    type: null
+  - title: Needs My Review
+    filters: is:open review-requested:@me
+    type: null
+  - title: Involved
+    filters: is:open involves:@me -author:@me
+    type: null
+
+issuesSections:
+  - title: My Issues
+    filters: is:open author:@me
+  - title: Assigned
+    filters: is:open assignee:@me
+  - title: Involved
+    filters: is:open involves:@me -author:@me
+
+repo:
+  branchesRefetchIntervalSeconds: 30
+  prsRefetchIntervalSeconds: 60
+
+defaults:
+  preview:
+    open: true
+    width: 50
+  prsLimit: 20
+  issuesLimit: 20
+  view: prs
+  layout:
+    prs:
+      updatedAt:
+        width: 5
+      createdAt:
+        width: 5
+      repo:
+        width: 20
+      author:
+        width: 15
+      authorIcon:
+        hidden: false
+      assignees:
+        width: 20
+        hidden: true
+      base:
+        width: 15
+        hidden: true
+      lines:
+        width: 15
+    issues:
+      updatedAt:
+        width: 5
+      createdAt:
+        width: 5
+      repo:
+        width: 15
+      creator:
+        width: 10
+      creatorIcon:
+        hidden: false
+      assignees:
+        width: 20
+        hidden: true
+  refetchIntervalMinutes: 30
+
+keybindings:
+  universal: []
+  issues: []
+  prs: []
+  branches: []
+
+repoPaths: {}
+
+theme:
+  ui:
+    sectionsShowCount: true
+    table:
+      showSeparator: true
+      compact: false
+  colors:
+    text:
+      default: "#ffffff" # Main text color
+      faint: "#ffffff"
+    background:
+      default: "#15161b" # General background color
+      selected: "#8AA9F9"
+    border:
+      primary: "#82aaff" # Primary border color
+      secondary: "#D2A6FF" # Secondary border color
+    highlight:
+      default: "#FFEE99" # Highlight color for items
+    table:
+      text: "#ffffff" # Text color for the table
+      background: "#15161b" # Table background color
+      selectedRow: "#3d424d" # Background color for selected row
+      cursor: "#ffdb29" # Color of the cursor in the table
+    statusBar:
+      background: "#08090D" # Status bar background color
+      text: "#ffffff" # Status bar text color
+      border: "#82aaff" # Border color for the status bar
+    inline:
+      background: "#1e2029" # Background for inline elements
+      text: "#ffffff" # Text color for inline elements
+      border:
+        primary: "#82aaff" # Primary border color for inline elements
+        secondary: "#c3e88d" # Secondary border color for inline elements
+
+pager:
+  diff: ""
+
+confirmQuit: false
+showAuthorIcons: true
+smartFilteringAtLaunch: true
