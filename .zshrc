@@ -166,7 +166,10 @@ export UV_PYTHON_PREFERENCE=only-managed
 export PATH="$HOME/.rbenv/shims:$PATH"
 
 
-
 . ~/.bin/ave.sh
 
 export PATH=$PATH:/Applications/love.app/Contents/MacOS/
+
+export ATAC_KEY_BINDINGS=/Users/antonio/.config/atac/vim_key_bindings.toml
+
+export ATAC_THEME=/Users/antonio/.config/atac/theme.toml

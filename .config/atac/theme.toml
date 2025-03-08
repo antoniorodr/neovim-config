@@ -1,0 +1,22 @@
+
+[ui]
+font_color = "White"
+
+main_foreground_color = "White"
+secondary_foreground_color = "#8AA9F9"
+
+main_background_color = "#15161b"
+secondary_background_color = "#1e2029"
+
+[others]
+selection_highlight_color = "#FFEE99"            # Lys gul for markering
+environment_variable_highlight_color = "#82aaff" # Lys blå for miljøvariabler
+
+[methods]
+GET = "#1F7D53"     # Lys grønn for bedre kontrast
+POST = "#FF9D23"    # Gull for god synlighet
+PUT = "#1E90FF"     # DodgerBlue for bedre synlighet
+PATCH = "#00CED1"   # DarkTurquoise for kontrast
+DELETE = "#FF6347"  # Tomat for en sterk rød
+HEAD = "#32CD32"    # Lime grønn for god kontrast
+OPTIONS = "#8A2BE2" # BlueViolet for lilla kontrast
