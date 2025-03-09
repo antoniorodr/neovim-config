@@ -12,6 +12,18 @@ return {
       desc = "Get Devdocs",
     },
     {
+      "<leader>Hf",
+      mode = "n",
+      "<cmd>DevDocs fetch<cr>",
+      desc = "Fetch DevDocs",
+    },
+    {
+      "<leader>Hd",
+      mode = "n",
+      "<cmd>DevDocs delete<cr>",
+      desc = "Delete DevDocs",
+    },
+    {
       "<leader>Hi",
       mode = "n",
       "<cmd>DevDocs install<cr>",
